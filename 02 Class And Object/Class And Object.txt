@@ -1,0 +1,24 @@
+Class And Object
+1. Class
+   - Blueprint/Template untuk membuat instance dari object
+   - Class mendefenisikan Object
+   - Menyimpan data dan perilaku yang disebut dengan property dan method
+
+2. Object
+   - Instanceyang yang didefenisikan oleh clas
+   - Banyak object dapat dibuat menggunakan satu class
+   - Object dibuat dengan menggunakan keyword new
+
+CONTOH SCRIPT
+<?php
+
+   class Data {
+         public $a; // property
+
+         // method
+         public function b() {
+
+         }
+   }
+
+?>

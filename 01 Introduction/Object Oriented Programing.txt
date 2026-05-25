@@ -1,0 +1,31 @@
+Object Oriented Programing
+- Menyusun semua kode program dan struktur data sebagai objek
+- Objek adalah unit dasar dari program
+- Objek menyimpan data dan perilaku
+- Objek bisa saling berinteraksi
+
+Kelebihan Object Oriented Programing
+- Representasi Dunia Nyata
+- Enkapsulasi & Abstraksi Data
+- Reusability
+- Skalabilitas & Ekstensibilitas
+- Kemudahan Pengelolaan
+- Kolaborasi
+- Digunakan oleh framework
+
+Basic OOP PHP
+- Class And Object
+- Property And Method
+- Constructor
+- Object Type
+- Inheritance
+- Visibility/ Access Modifier
+- Setter And Getter
+- Static Method
+
+Advanced OOP PHP
+- Abstract And Interface
+- Interceptor
+- Object Cloning
+- Callbacks And Closures
+- Namespaces And Autoloading
