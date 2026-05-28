@@ -8,7 +8,7 @@
 			   $prize = 0;
 
 		public function getLabel() {
-			return "$this->title, $this->writer";	
+			return "$this->title, $this->publisher";	
 		} 
 	}
 
