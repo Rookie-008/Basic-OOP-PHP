@@ -25,6 +25,6 @@
 	
 	echo "Movies : " . $product1->getLabel();
 	echo "<br><br>"
-	echo "Movies : " . $product2->getLabel();
+	echo "Games  : " . $product2->getLabel();
 	
 ?>
