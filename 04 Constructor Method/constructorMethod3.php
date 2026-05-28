@@ -23,7 +23,7 @@
 	$product2 = new Product("Kamen Rider", "Shotaro Ishinomori", "Toei Company", 5000);
 	$product3 = new Product("Silver Hawks", "Masaki Izuka", "Rankin Animated Entertainment", 5000 );
 	$product4 = new Product("Captain Tsubasa", "Yoichi Takahashi", "Toei Animation", 5000);
-	$product5 = new Product("Sailor Moon", "Naoko Takeuchi", "Toei Animation", 5000);
+	$product5 = new Product("Yugi Oh", "Kazuki Takahashi", "Studio Gallop", 5000);
 
 	
 	echo "Movies : " . $product1->getLabel();
