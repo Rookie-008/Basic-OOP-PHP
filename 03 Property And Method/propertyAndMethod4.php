@@ -15,7 +15,7 @@
 	$product1->prize = 50000;
 	var_dump($product1);
 
-	echo "Novel : $product1->title, $product1->publisher";
+	echo "Movies : $product1->title, $product1->publisher";
 
 	
 ?>
