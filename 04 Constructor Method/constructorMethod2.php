@@ -20,7 +20,7 @@
 	}
 
 	$product1 = new Product("Ultraman", "Toshizo Nemoto", "Tsuburaya Enterprises", 5000);
-	$product2 = new Product("Kamen Rider", "shotaro Ishinomori", "Toei Company", 5000);
+	$product2 = new Product("Kamen Rider", "Shotaro Ishinomori", "Toei Company", 5000);
 	$product3 = new Product("Superman");
 	$product4 = new Product("Naruto");
 
