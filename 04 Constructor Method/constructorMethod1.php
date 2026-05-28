@@ -15,12 +15,12 @@
 		}
 
 		public function getLabel() {
-			return "$this->title, $this->writer";	
+			return "$this->title, $this->publisher";	
 		} 
 	}
 
 	$product1 = new Product("Ultraman", "Toshizo Nemoto", "Tsuburaya Enterprises", 5000);
-	$product2 = new Product("Kamen Rider", "shotaro Ishinomori", "Toei Company", 5000);
+	$product2 = new Product("Kamen Rider", "Shotaro Ishinomori", "Toei Company", 5000);
 
 	
 	echo "Movies : " . $product1->getLabel();
