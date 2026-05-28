@@ -26,7 +26,7 @@
 	$product5 = new Product("Sailor Moon", "Naoko Takeuchi", "Toei Animation", 50000);
 
 	
-	echo "Novel  : " . $product1->getLabel();
+	echo "Movies : " . $product1->getLabel();
 	echo "<br><br>"
 	echo "Movies : " . $product2->getLabel();
 	echo "<br><br>"
