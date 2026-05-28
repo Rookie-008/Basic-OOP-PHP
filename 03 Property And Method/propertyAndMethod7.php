@@ -27,7 +27,7 @@
 	$product2->prize = 50000;
 
 	
-	echo "Novel : " . $product1->getLabel();
+	echo "Movies : " . $product1->getLabel();
 	echo "<br><br>"
 	echo "Movies : " . $product2->getLabel();
 	
