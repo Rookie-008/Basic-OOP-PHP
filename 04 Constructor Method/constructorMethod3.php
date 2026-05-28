@@ -28,11 +28,11 @@
 	
 	echo "Movies : " . $product1->getLabel();
 	echo "<br><br>"
-	echo "Movies : " . $product2->getLabel();
+	echo "Games  : " . $product2->getLabel();
 	echo "<br><br>"
 	echo "Movies : " . $product3->getLabel();
 	echo "<br><br>"
-	echo "Movies : " . $product4->getLabel();
+	echo "Games  : " . $product4->getLabel();
 	echo "<br><br>"
 	echo "Movies : " . $product5->getLabel();
 	
