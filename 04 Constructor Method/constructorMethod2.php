@@ -5,13 +5,13 @@
 		public $title,
 			   $writer,
 			   $publisher,
-			   $prize;
+			   $price;
 
-		public function __construct( $title = "Title", $writer = "Writer", $publisher = "Publisher", $prize = 0) {
+		public function __construct( $title = "Title", $writer = "Writer", $publisher = "Publisher", $price = 0) {
 			$this->title = $title;
 			$this->writer = $writer;
 			$this->publisher = $publisher;
-			$this->prize = $prize;
+			$this->price = $price;
 		}
 
 		public function getLabel() {
