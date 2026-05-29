@@ -14,7 +14,7 @@
 			$this->title = $title;
 			$this->writer = $writer;
 			$this->publisher = $publisher;
-			$this->prize = $price;
+			$this->price = $price;
 			$this->season = $season;
 			$this->series = $series;
 			$this->type = $type;
