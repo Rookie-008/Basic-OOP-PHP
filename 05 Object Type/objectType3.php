@@ -28,8 +28,8 @@
 	}
 
 
-	class showProductPrize {
-		public function productPrize( Product $product ) {
+	class showProductPrice {
+		public function productPrice( Product $product ) {
 			$string = "{$product->title} | (Price. {$product->price})";
 			return $string;
 		}
@@ -46,35 +46,35 @@
 	$infoProduct1 = new showInfoProduct();
 	echo $infoProduct1->showProduct($product1);
 	echo "<br>";
-	$infoProduct1 = new showProductPrize();
-	echo $infoProduct1->productPrize($product1);
+	$infoProduct1 = new showProductPrice();
+	echo $infoProduct1->productPrice($product1);
 	echo "<br><br><br>";
 
 	$infoProduct2 = new showInfoProduct();
 	echo $infoProduct2->showProduct($product2);
 	echo "<br>";
-	$infoProduct2 = new showProductPrize();
-	echo $infoProduct2->productPrize($product2);
+	$infoProduct2 = new showProductPrice();
+	echo $infoProduct2->productPrice($product2);
 	echo "<br><br><br>";
 
 	$infoProduct3 = new showInfoProduct();
 	echo $infoProduct3->showProduct($product3);
 	echo "<br>";
-	$infoProduct3 = new showProductPrize();
-	echo $infoProduct3->productPrize($product3);
+	$infoProduct3 = new showProductPrice();
+	echo $infoProduct3->productPrice($product3);
 	echo "<br><br><br>";
 
 	$infoProduct4 = new showInfoProduct();
 	echo $infoProduct4->showProduct($product4);
 	echo "<br>";
-	$infoProduct4 = new showProductPrize();
-	echo $infoProduct4->productPrize($product4);
+	$infoProduct4 = new showProductPrice();
+	echo $infoProduct4->productPrice($product4);
 	echo "<br><br><br>";
 	
 	$infoProduct5 = new showInfoProduct();
 	echo $infoProduct5->showProduct($product5);
 	echo "<br>";
-	$infoProduct5 = new showProductPrize();
-	echo $infoProduct5->productPrize($product5);
+	$infoProduct5 = new showProductPrice();
+	echo $infoProduct5->productPrice($product5);
 	
 ?>
