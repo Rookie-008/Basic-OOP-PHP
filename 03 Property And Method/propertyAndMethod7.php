@@ -5,7 +5,7 @@
 		public $title = "Title",
 			   $writer = "Writer",
 			   $publisher = "Publisher",
-			   $prize = 0;
+			   $price = 0;
 
 		public function getLabel() {
 			return "$this->title, $this->publisher";	
@@ -16,7 +16,7 @@
 	$product1->title = "Ultraman";
 	$product1->writer = "Toshizo Nemoto";
 	$product1->publisher = "Tsuburaya Enterprises";
-	$product1->prize = 50000;
+	$product1->price = 50000;
 	// var_dump($product1);
 
 
@@ -24,7 +24,7 @@
 	$product2->title = "Kamen Rider";
 	$product2->writer = "Shotaro Ishinomori";
 	$product2->publisher = "Toei Company";
-	$product2->prize = 50000;
+	$product2->price = 50000;
 
 	
 	echo "Movies : " . $product1->getLabel();
