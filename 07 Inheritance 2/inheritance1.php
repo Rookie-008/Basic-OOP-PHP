@@ -14,8 +14,8 @@
 			$this->writer = $writer;
 			$this->publisher = $publisher;
 			$this->prize = $prize;
-			$this->season = $season;
 			$this->series = $series;
+			$this->season = $season;	
 		}
 
 		public function getLabel() {
