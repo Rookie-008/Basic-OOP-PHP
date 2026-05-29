@@ -33,7 +33,7 @@
 	// Show Info Product
 	class showInfoProduct {
 		public function showProduct( Product $product ) {
-			$string = "{$product->title} | {$product->getLabel()} (Rp. {$product->prize})";
+			$string = "{$product->title} | {$product->getLabel()} (Prize. {$product->prize})";
 			return $string;
 		}
 	}
@@ -42,13 +42,13 @@
 	// Extends Product
 	class Movies extends Product {
 		public function getInfoProduct() {
-			$string = "Movies : {$this->title} | {$this->getLabel()} (Rp. {$this->prize}) - Series {$this->series}";
+			$string = "Movies : {$this->title} | {$this->getLabel()} (Prize. {$this->prize}) - Series {$this->series}";
 		}
 	}
 
 	class Games extends Product {
 		public function getInfoProduct() {
-			$string = "Games : {$this->title} | {$this->getLabel()} (Rp. {$this->prize}) ~ Season {$this->season}";
+			$string = "Games : {$this->title} | {$this->getLabel()} (Prize. {$this->prize}) ~ Season {$this->season}";
 		}
 	}
 
