@@ -5,15 +5,15 @@
 		public $title,
 			   $writer,
 			   $publisher,
-			   $prize,
+			   $price,
 			   $series,
 			   $season;
 
-		public function __construct( $title = "Title", $writer = "Writer", $publisher = "Publisher", $prize = 0, $series = 0, $season = 0) {
+		public function __construct( $title = "Title", $writer = "Writer", $publisher = "Publisher", $price = 0, $series = 0, $season = 0) {
 			$this->title = $title;
 			$this->writer = $writer;
 			$this->publisher = $publisher;
-			$this->prize = $prize;
+			$this->prize = $price;
 			$this->series = $series;
 			$this->season = $season;	
 		}
@@ -23,7 +23,7 @@
 		} 
 
 		public function getInfoProduct() {
-			$string = "{$this->title} | {$this->getLabel()} (Prize. {$this->prize}) - Season {$this->season}";
+			$string = "{$this->title} | {$this->getLabel()} (Prize. {$this->price}) - Season {$this->season}";
 
 			return $string;
 		}
@@ -33,7 +33,7 @@
 	// Show Info Product
 	class showInfoProduct {
 		public function showProduct( Product $product ) {
-			$string = "{$product->title} | {$product->getLabel()} (Prize. {$product->prize})";
+			$string = "{$product->title} | {$product->getLabel()} (Price. {$product->price})";
 			return $string;
 		}
 	}
@@ -42,13 +42,13 @@
 	// Extends Product
 	class Movies extends Product {
 		public function getInfoProduct() {
-			$string = "Movies : {$this->title} | {$this->getLabel()} (Prize. {$this->prize}) - Series {$this->series}";
+			$string = "Movies : {$this->title} | {$this->getLabel()} (Price. {$this->price}) - Series {$this->series}";
 		}
 	}
 
 	class Games extends Product {
 		public function getInfoProduct() {
-			$string = "Games : {$this->title} | {$this->getLabel()} (Prize. {$this->prize}) ~ Season {$this->season}";
+			$string = "Games : {$this->title} | {$this->getLabel()} (Price. {$this->price}) ~ Season {$this->season}";
 		}
 	}
 
