@@ -5,7 +5,7 @@
 		public $title = "Title",
 			   $writer = "Writer",
 			   $publisher = "Publisher",
-			   $prize = 0;
+			   $price = 0;
 	}
 
 	$product1 = new Product();
