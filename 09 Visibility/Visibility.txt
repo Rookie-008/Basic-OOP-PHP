@@ -1,0 +1,12 @@
+VISIBILITY
+
+- Konsep yang digunakan untuk mengatur akses dari property dan method pada sebuah objek
+- Keyword Visibility
+  1. public
+     dapat digunakan dan diakses dimana saja
+     
+  2. protected
+     hanya dapat digunakan didalam sebuah kelas beserta turunannya
+     
+  3. private
+     hanya dapat digunakan di dalam sebuah kelas tertentu saja
