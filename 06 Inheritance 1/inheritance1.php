@@ -5,16 +5,16 @@
 		public $title,
 			   $writer,
 			   $publisher,
-			   $prize,
+			   $price,
 			   $series,
 			   $season,
 			   $type;
 
-		public function __construct( $title = "Title", $writer = "Writer", $publisher = "Publisher", $prize = 0, $series = 0, $season = 0, $type ) {
+		public function __construct( $title = "Title", $writer = "Writer", $publisher = "Publisher", $price = 0, $series = 0, $season = 0, $type ) {
 			$this->title = $title;
 			$this->writer = $writer;
 			$this->publisher = $publisher;
-			$this->prize = $prize;
+			$this->prize = $price;
 			$this->season = $season;
 			$this->series = $series;
 			$this->type = $type;
@@ -25,7 +25,7 @@
 		} 
 
 		public function getInfoProduct() {
-			$string = "{$this->type} : {$this->title} | {$this->getLabel()} (Price. {$this->prize})";
+			$string = "{$this->type} : {$this->title} | {$this->getLabel()} (Price. {$this->price})";
 			if ( $this->type == "Movies" ) {
 				$string .= " - Series {$this->series}";
 			} else if( $this->type == "Games" ) {
@@ -39,7 +39,7 @@
 
 	class showInfoProduct {
 		public function showProduct( Product $product ) {
-			$string = "{$product->title} | {$product->getLabel()} (Price. {$product->prize})";
+			$string = "{$product->title} | {$product->getLabel()} (Price. {$product->price})";
 			return $string;
 		}
 	}
