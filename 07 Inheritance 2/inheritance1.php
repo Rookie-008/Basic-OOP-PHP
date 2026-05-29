@@ -13,7 +13,7 @@
 			$this->title = $title;
 			$this->writer = $writer;
 			$this->publisher = $publisher;
-			$this->prize = $price;
+			$this->price = $price;
 			$this->series = $series;
 			$this->season = $season;	
 		}
@@ -23,7 +23,7 @@
 		} 
 
 		public function getInfoProduct() {
-			$string = "{$this->title} | {$this->getLabel()} (Prize. {$this->price}) - Season {$this->season}";
+			$string = "{$this->title} | {$this->getLabel()} (Price. {$this->price}) - Season {$this->season}";
 
 			return $string;
 		}
