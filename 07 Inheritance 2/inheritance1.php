@@ -23,7 +23,7 @@
 		} 
 
 		public function getInfoProduct() {
-			$string = "{$this->title} | {$this->getLabel()} (Rp. {$this->prize}) - Season {$this->season}";
+			$string = "{$this->title} | {$this->getLabel()} (Prize. {$this->prize}) - Season {$this->season}";
 
 			return $string;
 		}
