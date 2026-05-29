@@ -25,7 +25,7 @@
 		} 
 
 		public function getInfoProduct() {
-			$string = "{$this->type} : {$this->title} | {$this->getLabel()} (Rp. {$this->prize})";
+			$string = "{$this->type} : {$this->title} | {$this->getLabel()} (Prize. {$this->prize})";
 			if ( $this->type == "Movies" ) {
 				$string .= " - Series {$this->series}";
 			} else if( $this->type == "Games" ) {
@@ -39,7 +39,7 @@
 
 	class showInfoProduct {
 		public function showProduct( Product $product ) {
-			$string = "{$product->title} | {$product->getLabel()} (Rp. {$product->prize})";
+			$string = "{$product->title} | {$product->getLabel()} (Prize. {$product->prize})";
 			return $string;
 		}
 	}
