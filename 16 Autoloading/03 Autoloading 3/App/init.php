@@ -1,0 +1,19 @@
+<?php  
+
+	// require_once 'App/Product/Product.php';
+	// require_once 'App/Product/infoProduct.php';
+	// require_once 'App/Product/showInfoProduct.php';
+	// require_once 'App/Product/Movies.php';
+	// require_once 'App/Product/Games.php';
+
+	// Cara 1
+	// spl_autoload_register(function( $class ){
+	// 	require_once 'Product/' . $class . '.php';
+	// });	
+
+	// Cara 2
+	spl_autoload_register(function( $class ){
+		require_once __DIR__ . '/Product/' . $class . '.php';
+	});
+
+?>
